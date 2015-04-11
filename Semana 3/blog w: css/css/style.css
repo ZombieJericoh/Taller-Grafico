@@ -1,0 +1,71 @@
+aside{
+	float:left;
+	width: 200px;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+aside ul{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+section{
+	margin-top: 20px;
+	width: 650px;
+	float: left;
+}
+
+body{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+footer{
+	font-size: 12px;
+	font-weight: 21px;
+}
+
+aside ul li{
+	margin-bottom: 15px;
+	line-height: 18px;
+}
+
+header nav{
+	font-size: 15px;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: right;
+	margin-right: 20px;
+	font-weight: bold;
+	margin: 60 0 0 0px;
+}
+
+header nav a{
+	color: #000000;
+	text-decoration: none;
+}
+
+hr{
+	border-bottom: 1px solid #000000;
+}
+
+#wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+
+section article{
+	margin-bottom: 20px;
+}
+
+section article p{
+	font-size: 14px;
+	line-height: 21px;
+}
