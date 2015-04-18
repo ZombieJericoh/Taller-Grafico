@@ -1,0 +1,138 @@
+aside{
+	float:left;
+	width: 30%;
+	padding:30px;
+}
+
+aside ul{
+	font-weight: bold;
+	font-size: 0.9em;
+}
+
+section{
+	margin-top: 20px;
+	width: 70%;
+	float: left;
+	padding:30px;
+}
+
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+footer{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+aside ul li{
+	margin-bottom: 15px;
+	line-height: 18px;
+}
+
+header nav{
+	font-size: 0.9em;
+}
+
+header nav ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: right;
+	margin-right: 20px;
+	font-weight: bold;
+	margin-top: 60px;
+}
+
+header nav a{
+	color: #000000;
+	text-decoration: none;
+}
+
+hr{
+	border-bottom: 1px solid #000000;
+}
+
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 990px;
+}
+
+section article{
+	margin-bottom: 20px;
+}
+
+section article p{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+h1{
+	font-family: 'league_gothicCnRg';
+	font-size: 5.8em;
+	text-transform: uppercase;
+	float: left;
+	color: #230b03;
+}
+
+@font-face {
+    font-family: 'league_gothicCnRg';
+    src: url('../fonts/leaguegothic-condensedregular.eot');
+    src: url('../fonts/leaguegothic-condensedregular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-condensedregular.woff') format('woff'),
+         url('../fonts/leaguegothic-condensedregular.ttf') format('truetype'),
+         url('../fonts/leaguegothic-condensedregular.svg#league_gothicCnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h2{
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	line-height: 28px;
+}
+
+h3{
+	font-size: 0.7em;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+header{
+	padding: 10px 30px;
+}
+
+@media screen and (max-width: 650px){
+
+	aside{
+		text-align: center;
+		width:100%;
+		float:none;
+	}
+
+	section{
+		width:100%;
+		float:none;
+	}
+
+}
+
+@media screen and (max-width: 500px){
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#menu-web {
+		display: none;
+	}
+
+}
