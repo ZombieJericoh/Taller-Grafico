@@ -1,0 +1,284 @@
+@font-face{
+	font-family: "Avenir", "SignPainter-HouseScript";
+	src: url("../fonts/AvenirNextLTPro-Bold");
+	src: url("../fonts/AvenirNextLTPro-BoldCn");
+	src: url("../fonts/AvenirNextLTPro-BoldCnIt");
+	src: url("../fonts/AvenirNextLTPro-Cn");
+	src: url("../fonts/AvenirNextLTPro-CnIt");
+	src: url("../fonts/AvenirNextLTPro-Demi");
+	src: url("../fonts/AvenirNextLTPro-DemiCn");
+	src: url("../fonts/AvenirNextLTPro-DemiCnIt");
+	src: url("../fonts/AvenirNextLTPro-DemiIt");
+	src: url("../fonts/AvenirNextLTPro-HeavyCn");
+	src: url("../fonts/AvenirNextLTPro-HeavyCnIt");
+	src: url("../fonts/AvenirNextLTPro-It");
+	src: url("../fonts/AvenirNextLTPro-MediumCn");
+	src: url("../fonts/AvenirNextLTPro-MediumCnIt");
+	src: url("../fonts/AvenirNextLTPro-Regular");
+	src: url("../fonts/AvenirNextLTPro-UltLtCn");
+	src: url("../fonts/AvenirNextLTPro-UltLtCnIt");
+	src: url("../fonts/SignPainter-HouseScript");
+
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 1em;
+	font-family: "AvenirNextLTPro-Cn", Arial, Helvetica, sans-serif;
+	color: #333333;
+	background-color: #151314;
+}
+
+#background img [alt="fondo"]{
+
+margin-top: 5px;
+
+}
+
+#wrapper{
+	width: 100%;
+	margin: 0 auto;
+	max-width: 990px;
+	background: url(../images/Bg.png) no-repeat;
+	background-size: cover;
+	-webkit-backgroung-size: cover;
+	-moz-backgroung-size: cover;
+	-o-backgroung-size: cover;
+
+}
+
+#logo{
+	width: 40%;
+	height: 40%;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 250px;
+}
+img{
+	width: 100%;
+	height: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+hr{
+	margin-bottom: 50px;
+	border: 0px;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+}
+
+header{
+	width: 990px;
+	background: url(../images/ban.jpg);
+	background-repeat: no-repeat;
+	height: 200px;
+	display: block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing: border-box;
+	padding: 10px, 30px;
+}
+
+a img{
+	width: 40%;
+	height: 40%;
+	margin-left: 300px;
+	margin-right: 200px;
+	margin-top: 85px;
+}
+
+}
+
+#banner img[alt="banner"]{
+	position: relative;
+	z-index: 10; top: 0;
+}
+nav{
+	font-family: "AvenirNextLTPro-Cn", Arial, sans-serif;
+	font-size: 0.8em;
+	background-color: #000;
+	width: 990px;
+	height: 35px;
+	word-spacing: 20px;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: Helvetica, Arial;
+	display: inline-block;
+	height: 50px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color:#000;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+a:visited{
+	color: #666;
+}
+
+h2{
+	color: #7c8bf2;
+	margin-top: 12px;
+	text-align: justify;
+	line-height: 18px;
+	font-family: "SignPainter-HouseScript", Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	margin-left: 15px;
+}
+
+#box{
+	height: 40%;
+	width: 40%;
+	background-color: gray;
+	position: absolute;
+	left:500px;
+	top: 300px;
+}
+
+div a img{
+	width: 90%;
+	height: 90%;
+	left:-270px;
+	top: -70px;
+	position: absolute;
+}
+
+section{
+float: center;
+width: 70%;
+box-sizing:border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+margin-top: 50px;
+margin-left: 15px;
+}
+
+h3{
+	margin-top: 400px;
+	font-size: 1.7em;
+	color: #7c8bf2;
+	font-family: "SignPainter-HouseScript", Arial, Helvetica, sans-serif;
+	margin-left: 35px;
+}
+
+#boxie{
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	display: inline-block;
+	position: absolute;
+	margin-left: 50px;
+	margin-top: 25px;
+}
+
+#img1{
+	width: 75%;
+	height: 95%;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+
+#boxie2{
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	display: inline-block;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 25px;
+}
+
+#img2{
+	width: 90%;
+	height: 90%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#boxie3{
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	display: inline-block;
+	position: absolute;
+	margin-left: 750px;
+	margin-top: 25px;
+}
+#img3{
+	width: 70%;
+	height: 95%;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+}
+footer{
+	background-color: #fff;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	padding: 10px, 30px;
+	margin-bottom: 50px;
+	outline: 2px solid #ffffff;
+}
+
+footer p {
+	color: #fff;
+	font-family: "AvenirNextLTPro-Cn", Arial;
+	font-size: 0.75em;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-top: 450px;
+	outline: 2px solid #ffffff;
+}
+
+@media screen and (max-width: 650px) {
+
+	nav{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	#box {
+		text-align: center;
+		width:100%;
+		float:none;
+	}
+
+	/* sidebar */
+	#boxie {
+		width:100%;
+		float:none;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#menu-web {
+		display: none;
+	}
+
+}

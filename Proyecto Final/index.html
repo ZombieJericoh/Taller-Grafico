@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<title>ZombieJericoh's World</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script type="text/javascript">
+
+var slideimages=new Array()
+var slidelinks=new Array()
+function slideshowimages(){
+for (i=0;i<slideshowimages.arguments.length;i++){
+slideimages[i]=new Image()
+slideimages[i].src=slideshowimages.arguments[i]
+}
+}
+
+function slideshowlinks(){
+for (i=0;i<slideshowlinks.arguments.length;i++)
+slidelinks[i]=slideshowlinks.arguments[i]
+}
+
+function gotoshow(){
+if (!window.winslide||winslide.closed)
+winslide=window.open(slidelinks[whichlink])
+else
+winslide.location=slidelinks[whichlink]
+winslide.focus()
+}
+
+</script>		
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+	<header id="banner" class="body">
+			<img id="logo" src="images/logo.png" alt="logo"/>
+
+			<nav>
+				<ul id= "menu-web">
+					<li><a href="//" target="_blank">Inicio</a></li>  
+	    			<li><a href="//" target="_blank">Biografia</a></li>
+	    			<li><a href="//" target="_blank">Portafolio</a></li>
+	    			<li><a href="//" target="_blank">Bocetos</a></li>
+	    			<li><a href="//" target="_blank">Contacto</a></li>	
+				</ul>
+			</nav>
+	<div id="bg">
+		<img src="images/Bg.png" alt="fondo">
+	</div>
+				<div style="clear:both;"></div>
+
+	</header>
+
+<section>
+	<h2>Mejores Trabajos</h2>
+		<div id="box">
+			<a href="javascript:gotoshow()"><img src="images/0.png" name="slide"></a>
+				<script>
+<!--//configure the paths of the images, plus corresponding target links
+slideshowimages("images/0.png","images/1.png","images/2.png","images/3.png","images/4.png")
+slideshowlinks("http://www.facebook.com/BlackEricVeilBridesZapata","http://youtube.com","http://www.twitter.com/EricBVB","http://www.pinterest.com","http://www.google.com")
+
+//configure the speed of the slideshow, in miliseconds
+var slideshowspeed=3000
+
+var whichlink=0
+var whichimage=0
+function slideit(){
+if (!document.images)
+return
+document.images.slide.src=slideimages[whichimage].src
+whichlink=whichimage
+if (whichimage<slideimages.length-1)
+whichimage++
+else
+whichimage=0
+setTimeout("slideit()",slideshowspeed)
+}
+slideit()
+
+
+				</script>
+		</div>
+</section>
+	<h3>Otros Trabajos</h3>
+	<div id="boxie">
+		<img id="img1" src="images/5.jpg" alt="Tattoo">
+	</div>
+	<div id="boxie2">
+		<img id="img2" src="images/6.png" alt="Pattern">
+	</div>
+	<div id="boxie3">
+		<img id="img3" src="images/7.jpg" alt="CharPort">
+	</div>
+<footer>
+	<hr>
+	<p>Thanks for visiting!</p>
+	</hr>
+</footer>
+		</div>
+	</body>
+</html>
